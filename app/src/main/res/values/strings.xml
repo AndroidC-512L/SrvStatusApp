@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Minecraft Server Status</string>
+
+    <string name="ip_hint">Enter an IP Address</string>
+    <string name="check_buttom">Check Status</string>
+
+    <string name="about_tile">About</string>
+    <string name="about_author">This App is created by: </string>
+    <string name="about_name">Android C-512L</string>
+    <string name="about_description">Lorem ipsum dolor sit amet.</string>
+</resources>
