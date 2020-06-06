@@ -8,7 +8,7 @@ public class McSrvStatStatus {
     //Debug Info
     private McSrvStatDebug debug;
     //MotD
-    private McSrvStatMotd motd;
+    private McSrvStatMotD motd;
     //Players info
     private McSrvStatPlayers players;
     //The Minecraft Versions supported
@@ -54,11 +54,11 @@ public class McSrvStatStatus {
         this.debug = debug;
     }
 
-    public McSrvStatMotd getMotd() {
+    public McSrvStatMotD getMotd() {
         return motd;
     }
 
-    public void setMotd(McSrvStatMotd motd) {
+    public void setMotd(McSrvStatMotD motd) {
         this.motd = motd;
     }
 

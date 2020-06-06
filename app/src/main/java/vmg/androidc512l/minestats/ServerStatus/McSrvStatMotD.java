@@ -1,18 +1,14 @@
 package vmg.androidc512l.minestats.ServerStatus;
 
-public class McSrvStatInfo {
+public class McSrvStatMotD {
     private String[] raw,clean,html;
-
-    public String[] getRaw() {
-        return raw;
-    }
 
     public String[] getClean() {
         return clean;
     }
 
-    public String[] getHtml() {
-        return html;
+    public String[] getRaw() {
+        return raw;
     }
 
     public void setRaw(String[] raw) {
@@ -21,6 +17,10 @@ public class McSrvStatInfo {
 
     public void setClean(String[] clean) {
         this.clean = clean;
+    }
+
+    public String[] getHtml() {
+        return html;
     }
 
     public void setHtml(String[] html) {
