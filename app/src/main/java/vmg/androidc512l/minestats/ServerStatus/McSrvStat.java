@@ -6,6 +6,6 @@ import retrofit2.http.Path;
 
 public interface McSrvStat {
     //Get status from server
-    @GET("/2/{<address}")
+    @GET("/2/{address}")
     Call<McSrvStatStatus> getStatsInfo(@Path("address") String address);
 }

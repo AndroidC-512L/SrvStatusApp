@@ -1,6 +1,8 @@
 package vmg.androidc512l.minestats.ServerStatus;
 
 public class McSrvStatStatus {
+    //Is Online
+    private boolean online;
     //IP Address
     private String ip;
     //Port Number
@@ -29,6 +31,14 @@ public class McSrvStatStatus {
     private McSrvStatMods mods;
     //Info
     private McSrvStatInfo info;
+
+    public boolean isOnline() {
+        return online;
+    }
+
+    public void setOnline(boolean online) {
+        this.online = online;
+    }
 
     public String getIp() {
         return ip;
